@@ -1,8 +1,9 @@
 # Build tools
-This is a collection of `Dockerfile` to discribe Docker image I use to build some of my projects.
+This is a collection of `Dockerfile` to describe Docker image I use to build some of my projects.
 
-Each Docker image evolve in its own Git branch. So look for the branches ;)
+Each Docker image evolves in its own Git branch. So look for the branches ;)
 
-## Credit
+## `npm-build-tools`
 
-Thanks to @alecharp for [the inspiration](https://github.com/alecharp/build-tools).
+ - Docker img: `inertialbox/npm-build-tools`
+ - contains: `git`, `npm` & `gulp`
